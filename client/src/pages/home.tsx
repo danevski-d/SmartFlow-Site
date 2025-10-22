@@ -45,8 +45,9 @@ export default function Home() {
   });
 
   const onSubmit = (data: ContactFormValues) => {
-    // In production, you would replace this with your actual Calendly link
-    const calendlyLink = "https://calendly.com/dragan-danevski";
+    // TODO: Replace with your actual Calendly link once account is set up
+    // Example format: https://calendly.com/your-username/meeting-type
+    const calendlyLink = "https://calendly.com/dragan-danevski/automation-audit";
     window.open(calendlyLink, "_blank");
   };
 
