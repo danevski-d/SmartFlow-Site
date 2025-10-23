@@ -46,7 +46,7 @@ export default function Home() {
 
   const onSubmit = (data: ContactFormValues) => {
     // TODO: Replace with your actual Calendly link once account is set up
-    // Example format: https://calendly.com/your-username/meeting-type
+    // Example format: https://calendly.com/19dragan96/meeting-type
     const calendlyLink = "https://calendly.com/dragan-danevski/automation-audit";
     window.open(calendlyLink, "_blank");
   };
@@ -629,11 +629,11 @@ export default function Home() {
                     <div>
                       <p className="font-medium">Email</p>
                       <a 
-                        href="mailto:dragan.danevski@ymail.com"
+                        href="mailto:19dragan96@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-email"
                       >
-                        dragan.danevski@ymail.com
+                        19dragan96@gmail.com
                       </a>
                     </div>
                   </div>
