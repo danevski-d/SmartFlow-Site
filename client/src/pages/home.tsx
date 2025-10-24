@@ -628,11 +628,11 @@ export default function Home() {
                     <div>
                       <p className="font-medium">Email</p>
                       <a 
-                        href="mailto:19dragan96@gmail.com"
+                        href="mailto:info@dsmartflowai.com"
                         className="text-muted-foreground hover:text-primary transition-colors"
                         data-testid="link-email"
                       >
-                        19dragan96@gmail.com
+                        info@dsmartflowai.com
                       </a>
                     </div>
                   </div>
