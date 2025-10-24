@@ -45,11 +45,10 @@ export default function Home() {
   });
 
   const onSubmit = (data: ContactFormValues) => {
-    // TODO: Replace with your actual Calendly link once account is set up
-    // Example format: https://calendly.com/19dragan96/meeting-type
-    const calendlyLink = "https://calendly.com/dragan-danevski/automation-audit";
-    window.open(calendlyLink, "_blank");
-  };
+  // ✅ Opens your real Calendly booking link in a new tab
+  const calendlyLink = "https://calendly.com/19dragan96";
+  window.open(calendlyLink, "_blank");
+};
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
