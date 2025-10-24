@@ -122,7 +122,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <Zap className="h-6 w-6 text-primary" data-testid="logo-icon" />
               <span className="text-xl font-bold tracking-tight" data-testid="text-brand-name">
-                SmartFlow
+                D-SmartFlow AI
               </span>
             </div>
             
@@ -283,7 +283,7 @@ export default function Home() {
             className="text-base md:text-lg text-muted-foreground leading-relaxed"
             data-testid="text-about-description"
           >
-            SmartFlow is a small AI automation agency focused on helping small business owners simplify their work with affordable, custom-built automations using tools like n8n, Make, Zapier, and ChatGPT.
+            D-SmartFlow AI is a small AI automation agency focused on helping small business owners simplify their work with affordable, custom-built automations using tools like n8n, Make, Zapier, and ChatGPT.
           </p>
           <p 
             className="text-base md:text-lg text-muted-foreground leading-relaxed"
@@ -683,10 +683,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center space-y-4">
           <div className="flex items-center justify-center gap-2">
             <Zap className="h-5 w-5 text-primary" />
-            <span className="text-lg font-bold">SmartFlow Automation Agency</span>
+            <span className="text-lg font-bold">D-SmartFlow AI Automation Agency</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © 2025 SmartFlow. Making AI accessible to everyone.
+            © 2025 D-SmartFlow AI. Making AI accessible to everyone.
           </p>
         </div>
       </footer>
