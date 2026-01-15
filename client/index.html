@@ -26,7 +26,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- AI CHATBOT WIDGET -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://iksvenadd.app.n8n.cloud/webhook/ef78dcc1-f531-42ab-9ec8-b536c9dd32f7/chat'
+	});
+</script>
 <script>
   window.DSMARTFLOW_AI_CHATBOT = {
     title: "D-Smartflow AI Assistant",
